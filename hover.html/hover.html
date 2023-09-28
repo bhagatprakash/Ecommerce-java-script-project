@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .card{
+      display: flex;
+    }
+    .blog{
+      position: relative;
+      width: 25%;
+      margin-left: 20px;
+    }
+    .imgss{
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .blogtext{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color:rgba(0,0,0,0.75);
+      overflow: hidden;
+      width: 100%;
+      height: 0;
+      transition: 2s ease;
+    }
+
+    .blog:hover .blogtext{
+         height: 100%;
+    }
+
+    h1{
+      width: 100%;
+      margin-top: 10%;
+      color: white;
+      font-size: 2vw;
+      position: absolute;
+      text-align: center;
+      font-family: sans-serif;
+      transform: rotate(-5deg) skewX(-5deg);
+    }
+    h2{
+      align-items: center;
+      font-family: sans-serif;
+      color: white;
+      font-size: 1.2vw;
+      margin: 20% 0 0 18%;
+      width: 70%;
+      letter-spacing: 3px;
+      line-height: 1.5em;
+    }
+  </style>
+  <body>
+
+    <div class="card">
+          <div class="blog">
+            <img src="../images/blogs img.jpg" alt="img-5" class="imgss" />
+            <div class="blogtext">
+              <h1>Trending Girls Cloths</h1>
+              <br />
+              <h2>
+                learn for past plane for future but leave in present. past plane
+                for future but leave
+              </h2>
+              <!-- <a href="https://www.hopscotch.in/girls">Read More</a> -->
+            </div>
+          </div>
+
+           <div class="blog">
+            <img src="../images/blogs img-1.jpg" alt="img-4"  class="imgss" height="300px" width="380px"/>
+            <div class="blogtext">
+              <h1>Trending Boys Cloths</h1>
+              <br />
+              <h2>
+                learn for past plane for future but leave in present. past plane
+                for future but leave
+              </h2>
+              <!-- <a href="https://www.shoppersstop.com/men/c-A10">Read More</a> -->
+            </div>
+           </div>
+  </body>
+</html>
+
+
